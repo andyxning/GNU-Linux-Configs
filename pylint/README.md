@@ -1,9 +1,9 @@
 ### Pylint 
-`pylint/.pylintrc` contains the basic **pylint** configuration i use in my working.  
+`pylint/dotpylintrc` contains the basic **pylint** configuration i use in my working.  
 
 ### Install
 * install `pylint`
-* copy `pylint/.pylintrc` to your home directory
+* copy `pylint/dotpylintrc` to your home directory and rename it to `.pylintrc`
 
 ### Infos
 * according to the [doc](http://docs.pylint.org/run.html#command-line-options) of `pylint` the searching order of `pylint` configuration is:
@@ -18,5 +18,3 @@
 ```
 pylint --reports=no --output-format=colorized --generate-rcfile > $HOME/.pylintrc
 ```
-### Notice
-* Because `.pylintrc` is a hidden file. It will not be shown when you type `ls` on your shell in directory `pylint`, use `ls -al` instead.
