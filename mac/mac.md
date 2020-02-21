@@ -8,3 +8,8 @@ Tools
 Zsh
 ----
 * `export GIT_TERMINAL_PROMPT=1`
+
+
+Iterm2
+----
+* [Jump forwards and backwards words](https://coderwall.com/p/h6yfda/use-and-to-jump-forwards-backwards-words-in-iterm-2-on-os-x)
